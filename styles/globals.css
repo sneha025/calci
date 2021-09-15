@@ -1,0 +1,40 @@
+:root {
+  --primary: #d81e5b;
+  --secondary: #8c38ff;
+  --dark: #131a26;
+  --light: #eee;
+}
+html,
+body {
+  background-color: var(--light);
+
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans", "sand-serif";
+}
+
+button {
+  appearance: none;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 16px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+button:hover {
+  opacity: 0.9;
+}
